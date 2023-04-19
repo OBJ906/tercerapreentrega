@@ -1,5 +1,9 @@
-h2 {
+.red {
   color: red;
+}
+
+.height {
+  height: auto;
 }
 
 @media (min-width: 1024px) {
@@ -23,6 +27,14 @@ h2 {
     font-size: 25px;
     color: red;
   }
+  div div p {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: red;
+  }
   footer {
     background-color: lightgray;
   }
@@ -31,14 +43,17 @@ h2 {
   }
 }
 @media (max-width: 769px) {
-  mbFS {
-    font-size: 18px;
-  }
   body {
     background-color: black;
   }
   header {
     background-color: lightgray;
+  }
+  header div nav div div ul {
+    font-size: 18px;
+  }
+  main div p {
+    color: red;
   }
   footer {
     background-color: lightgray;
@@ -46,7 +61,10 @@ h2 {
   footer div h2 {
     font-size: 18px;
   }
-  main div p {
+  main div h3 {
+    font-size: 15px;
+  }
+  div div p {
     color: red;
   }
 }
