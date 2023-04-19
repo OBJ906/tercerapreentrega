@@ -1,0 +1,17 @@
+.gradiant{
+    background-image:linear-gradient(to top, white, blue, red);
+}
+@keyframes animacion{
+    0%{transform:translate(-100px, -100px);}
+    25%{transform:rotate(100deg);transform:translate(0,0);}
+    50%{transform: rotate(0deg);transform: scale(1,1);}
+    75%{transform: scale(1,1); transform: skew(10deg,1000deg);}
+    100%{transform: skew(0deg,0deg);}
+}
+.logo{
+    animation-name:animacion;
+    animation-duration:5s;
+    animation-iteration-count: initial;
+    animation-delay:0s;
+    animation-timing-function: ease-in-out;
+}
