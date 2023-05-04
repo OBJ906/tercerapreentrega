@@ -1,9 +1,25 @@
 @import "animaciones";
 $black:black;
-$lightgray:lightgray;
 $red:red;
-.red{color: red;}
+$lightgray:lightgray;
+.white{color: white;}
 @media (min-width:1024px) {
+    .boton{
+        width:auto;
+        height:auto;
+        background-color: blue;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        padding:30px;
+        color: antiquewhite;
+        font-size:50px;
+        transition:.3s ease all;
+    }
+    .WH{width:400px; height:50px;}
+    .marginT{margin-top:50px;}
+    .marginB{margin-bottom:50px;}
+    .marginTB{margin-top:50px; margin-bottom:50px;}
     .WdHg{
         width: 850px;
         height: 550px;
@@ -21,10 +37,9 @@ $red:red;
         padding-right:150px;
     }
     body{
-        background-color:$black;
+        background-color:white;
     }
-    header{
-        background-color:$lightgray;
+    header{background-color:$lightgray;
         div{
             nav{
                 div{
@@ -40,7 +55,7 @@ $red:red;
     div{
         div{
             h1{
-                color:$red;
+                color:$black;
             }
         }
     }
@@ -52,7 +67,7 @@ $red:red;
                 margin-top:30px;
                 margin-bottom:30px;
                 font-size:25px;
-                color:$red;
+
             }
         }
     }
@@ -64,26 +79,40 @@ $red:red;
                 margin-top:30px;
                 margin-bottom:30px;
                 font-size:25px;
-                color:$red;
+                color:$black;
             }
         }
     }
     footer{
-        background-color:$lightgray ;
+        background-color:$lightgray;
         div{
             h1{
                 color:$black;
+                font-size:35px;
             }
         }
     }
 }
 @media (max-width:769px) {
+    .video{width:250px; height:150px;}
+    .boton{
+        width:auto;
+        height:120pxpx;
+        background-color: blue;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        padding:30px;
+        color: antiquewhite;
+        font-size:50px;
+        transition:.3s ease all;
+    }
     .mbWdHg{
         width:auto;
         height:auto;
     }
     body{
-        background-color:$black;
+        background-color:white;
     }
     header{
         background-color:$lightgray;
@@ -102,7 +131,7 @@ $red:red;
     main{
         div{
             p{
-                color:$red;
+                color:$black;
             }
         }
     }
@@ -124,7 +153,7 @@ $red:red;
     div{
         div{
             p{
-                color:$red;
+                color:$black;
             }
         }
     }
